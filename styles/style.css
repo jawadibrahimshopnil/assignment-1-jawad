@@ -192,3 +192,18 @@ p {
 
   mix-blend-mode: multiply;
 }
+
+/* product portfolio section */
+.portfolio h3{
+  margin-bottom: 16px;
+}
+.portfolio h2{
+  margin-bottom: 22px;
+}
+.portfolio p{
+  max-width: 970px;
+  margin-bottom: 48px;
+}
+.portfolio-imgs img{
+  margin: 0px 10px 10px 0px;
+}
