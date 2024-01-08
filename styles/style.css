@@ -169,3 +169,26 @@ p {
 .new-year p{
   margin-bottom: 42px;
 }
+
+/* holidays sale */
+.holidays-sale{
+  text-align: center;
+}
+.holidays-sale h3{
+  color: #070211;
+  margin-bottom: 16px;
+}
+.holidays-sale h1{
+  margin-bottom: 28px;
+}
+.holidays-sale > p{
+  margin-bottom: 65px;
+}
+.holiday-img{
+  height: 650px;
+  background-image: url("../images/Group\ 75.png"), url("../images/Rectangle2.png"), url("../images/Group\ 44.png"), url("../images/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom, 70% 20%, top right;
+
+  mix-blend-mode: multiply;
+}
