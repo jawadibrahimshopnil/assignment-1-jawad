@@ -61,3 +61,28 @@ p {
   text-align: center;
   line-height: 95px;
 }
+
+/* 65% OFF section */
+.off65 {
+  padding: 0px 260px;
+}
+.off65 h1 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.off65 h3{
+    text-align: center;
+    margin-bottom: 16px;
+}
+.off65 h2{
+    color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 48px;
+}
