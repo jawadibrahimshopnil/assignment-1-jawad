@@ -33,8 +33,11 @@ p {
   line-height: 32px;
 }
 .primary-btn {
+  border-radius: 8px;
+  background: #f00;
+  padding: 16px 32px;
+
   color: #fff;
-  text-align: center;
   font-family: Inter;
   font-size: 20px;
   font-weight: 700;
@@ -74,15 +77,42 @@ p {
   font-weight: 700;
   margin-bottom: 48px;
 }
-.off65 h3{
-    text-align: center;
-    margin-bottom: 16px;
+.off65 h3 {
+  text-align: center;
+  margin-bottom: 16px;
 }
-.off65 h2{
-    color: #070211;
-text-align: center;
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
-margin-bottom: 48px;
+.off65 h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+/* welcome party section */
+.welcome-party {
+  border-radius: 16px;
+  padding: 70px 130px;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Vectorrr.png") no-repeat center/cover;
+  display: flex;
+  justify-content: space-between;
+}
+.welcome-party .txt-content h1 {
+  color: #fff;
+  font-size: 64px;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  margin-bottom: 24px;
+}
+.welcome-party .txt-content p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.welcome-party .txt-content button{
+    background-color: transparent;
+    border: none;
 }
