@@ -133,7 +133,39 @@ p {
 .red-txt {
   color: #f00;
 }
-.join-details button{
+.join-details button {
   display: block;
   margin: 0px auto;
+}
+
+/* best offer section */
+.best-offer {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+.offer-parag {
+  max-width: 400px;
+}
+.offer-parag h3 {
+  margin-bottom: 16px;
+}
+.offer-parag h2 {
+  margin-bottom: 22px;
+}
+.circle-img {
+  border: 15px solid red;
+  border-radius: 50%;
+  padding: 30px;
+}
+.new-year h2 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 112px;
+  margin-bottom: 16px;
+}
+.new-year p{
+  margin-bottom: 42px;
 }
