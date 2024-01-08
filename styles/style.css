@@ -207,3 +207,29 @@ p {
 .portfolio-imgs img{
   margin: 0px 10px 10px 0px;
 }
+
+/* subscribe section */
+.subscribe{
+  text-align: center; 
+}
+.subscribe .mail-icon{
+
+  margin-bottom: 40px;
+}
+.subscribe > h2{
+  margin-bottom: 22px;
+}
+.subscribe > p{
+  margin-bottom: 48px;
+}
+.subscribe-form .subscriber-email{
+  border: none;
+  padding: 25px 30px;
+  border-radius: 50px 0px 0px 50px;
+  width: 450px;
+}
+.subscribe-form .subscribe-btn{
+  border-radius: 0px 50px 50px 0px;
+  padding: 24px 56px;
+  font-weight: 600;
+}
